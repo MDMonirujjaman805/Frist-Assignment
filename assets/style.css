@@ -8,14 +8,23 @@ body{
   padding: 0;
 }
 /* banner section style starts here */
+.div{
+  width: 1440px;
+  height: 5114px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
 .banner-container{
   width: 1440px;
   height: 652px;
-  margin: 0 auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
   background-image: url(Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: 2px solid red;
 }
 .banner-content{
   display: flex;
@@ -46,16 +55,18 @@ body{
 /* banner section style end here */
 /* main section style starts here */
 .section1{
-  max-width: 946px;
-  height: 1035px;
+  width: 1140px;
+  height: 1395px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 80px 97px;
+  margin: 0px 152px 0px 148px;
   padding: 80px 50px;
-  margin-left: 450px;
   background-color: #FAFAFB;
+  border: 2px solid red;
 }
 .div-1{
   width: 850px;
@@ -152,14 +163,17 @@ margin: 50px 0px;
   color: rgba(13, 19, 33, 0.7);
 }
 /* main section style end here */
-/* add video section starts here */
+/* video section style starts here */
 .video-section{
   width: 1140px;
   height: 775px;
+  margin-left: 148px;
+  margin-right: 152px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 24px auto;
+  justify-content: flex-start;
+  border: 2px solid red;
 }
  .c{
   margin: 20px 0;
@@ -172,4 +186,57 @@ margin: 50px 0px;
   border-radius: 16px;
   margin-top: 48px;
  }
- /* add video section end here */
+ /* video section style end here */
+ /* card section style starts here */
+ .card-div{
+  border: 2px solid red;
+  position: static;
+  width: 1140px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 148px;
+  margin-right: 152px;
+ }
+#mc{
+  text-align: center;
+  margin: 24px 0px;
+}
+.three-card{
+  display: flex;
+  flex-direction: row;
+  height: 299px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 48px 0px;
+  gap: 10px;
+}
+#ht{
+  background-color: #FFF6F4;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+#h{
+  margin: 24px 0px;
+}
+#cs{
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+#c{
+  margin: 24px 0px;
+}#ja{
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+#j{
+  margin: 24px 0px;
+}
+/* card section style end here */

@@ -10,7 +10,7 @@ body{
 /* banner section style starts here */
 .div{
   width: 1440px;
-  height: 3650px;
+  height: 3375px;
   margin: 0 auto;
 }
 .banner-container{
@@ -163,7 +163,7 @@ margin: 50px 0px;
 /* video section style starts here */
 .video-section{
   width: 1140px;
-  height: 775px;
+  height: 500px;
   margin-left: 148px;
   margin-right: 152px;
   display: flex;
@@ -176,12 +176,6 @@ margin: 50px 0px;
   width: 852px;
   height: 52px;
  }
- /* .vi{
-  width:1076px ;
-  height: 550px;
-  border-radius: 16px;
-  margin-top: 48px;
- } */
  /* video section style end here */
  /* card section style starts here */
  .card-div{

@@ -10,9 +10,8 @@ body{
 /* banner section style starts here */
 .div{
   width: 1440px;
-  height: 5114px;
+  height: 3650px;
   margin: 0 auto;
-  border: 1px solid blue;
 }
 .banner-container{
   width: 1440px;
@@ -24,7 +23,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 2px solid red;
 }
 .banner-content{
   display: flex;
@@ -66,7 +64,6 @@ body{
   margin: 0px 152px 0px 148px;
   padding: 80px 50px;
   background-color: #FAFAFB;
-  border: 2px solid red;
 }
 .div-1{
   width: 850px;
@@ -173,7 +170,6 @@ margin: 50px 0px;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border: 2px solid red;
 }
  .c{
   margin: 20px 0;
@@ -189,7 +185,6 @@ margin: 50px 0px;
  /* video section style end here */
  /* card section style starts here */
  .card-div{
-  border: 2px solid red;
   position: static;
   width: 1140px;
   height: 460px;
@@ -239,7 +234,6 @@ margin: 50px 0px;
 }
 #c{
   margin: 10px 0px;
-  border: 2px solid red;
   font-weight: 700;
 }
 #C{
@@ -261,3 +255,85 @@ margin: 50px 0px;
   width: 285px;
 }
 /* card section style end here */
+/* suppport section style starts here */
+.handshake{
+  width: 1140px;
+  height: 186px;
+  left: 150px;
+  right: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(handshake.jpg);
+  margin-left: 148px;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+#in{
+  width: 292px;
+  height: 36px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+#am{
+  width: 606px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+   color: rgb(255, 255, 255);
+}
+.div4{
+  width: 680px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: space-between;
+  justify-content: space-between;
+}
+#ph{
+  width: 548px;
+height: 57px;
+border-radius: 8px;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+}
+#su{
+  width: 120px;
+  height: 58px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+/* suppport section style end here */
+/* footer section starts here */
+.footer{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 1440px;
+height: 100px;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+margin-top: 50px;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+/* footer section end here */

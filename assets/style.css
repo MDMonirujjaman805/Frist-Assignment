@@ -12,7 +12,6 @@ body{
   width: 1440px;
   height: 652px;
   margin: 0 auto;
-  border: 2px solid red;
   background-image: url(Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,10 +23,10 @@ body{
   justify-content: center;
   align-items: center;
 }
-/* .banner-text{
+.banner-text{
   width: 998px;
   height: 136px;
-} */
+}
 .btn{
   width: 208px;
   height: 66px;
@@ -35,12 +34,119 @@ body{
   color: white;
   background:rgb(13, 19, 33);
   text-align: center;
-  margin-left: 410px;
-  margin-top: 180px;
+  margin-left: 400px;
+  margin-top: 100px;
 }
 #p{
   margin: 20px 0px;
 }
 #i{
   margin-top: 25px;
+}
+.section1{
+  max-width: 946px;
+  height: 1035px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 97px;
+  padding: 80px 50px;
+  margin-left: 450px;
+  background-color: #FAFAFB;
+}
+.div-1{
+  width: 850px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 00px;
+  justify-content: space-between;
+}
+#ww{
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+#wd{
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+#lm{
+  width: 110px;
+  height: 24px;
+  padding: 12px 20px 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 600;
+}
+.text-1{
+  width: 390px;
+  height: 72px;
+  color: rgba(13, 19, 33, 0.7);
+}
+#H{
+  width: 468px;
+height: 52px;
+margin: 50px 0px;
+}
+.div-2{
+  width: 850px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  margin: 32px 0px;
+  justify-content: space-between;
+}
+.text-2{
+  width: 390px;
+  height: 72px;
+  color: rgba(13, 19, 33, 0.7);
+
+}
+#lm2{
+  width: 110px;
+  height: 24px;
+  padding: 12px 20px 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+  .H2{
+    width: 368px;
+  height: 52px;
+  margin: 50px 0px;
+  }
+.div-3{
+  width: 850px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  margin: 32px 0px;
+  justify-content: space-between;
+}
+#lm3{
+  width: 110px;
+  height: 24px;
+  padding: 12px 20px 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+.H3{
+  width: 468px;
+  height: 52px;
+  margin: 50px 0px;
+  color: rgba(13, 19, 33, 0.7);
+
 }

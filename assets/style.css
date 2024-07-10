@@ -43,6 +43,8 @@ body{
 #i{
   margin-top: 25px;
 }
+/* banner section style end here */
+/* main section style starts here */
 .section1{
   max-width: 946px;
   height: 1035px;
@@ -148,5 +150,26 @@ margin: 50px 0px;
   height: 52px;
   margin: 50px 0px;
   color: rgba(13, 19, 33, 0.7);
-
 }
+/* main section style end here */
+/* add video section starts here */
+.video-section{
+  width: 1140px;
+  height: 775px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px auto;
+}
+ .c{
+  margin: 20px 0;
+  width: 852px;
+  height: 52px;
+ }
+ .vi{
+  width:1076px ;
+  height: 550px;
+  border-radius: 16px;
+  margin-top: 48px;
+ }
+ /* add video section end here */

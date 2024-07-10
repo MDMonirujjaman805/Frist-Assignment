@@ -207,8 +207,8 @@ margin: 50px 0px;
 .three-card{
   display: flex;
   flex-direction: row;
-  height: 299px;
-  justify-content: flex-start;
+  height: 290px;
+  justify-content: center;
   align-items: center;
   margin: 48px 0px;
   gap: 10px;
@@ -218,25 +218,46 @@ margin: 50px 0px;
   padding: 30px;
   margin-bottom: 20px;
   border-radius: 16px;
+  width:370px ;
+  height: 290px;
 }
 #h{
-  margin: 24px 0px;
+  margin: 10px 0px;
+  font-weight: 700;
+
+}
+#H{
+   width: 285px;
 }
 #cs{
   padding: 30px;
+  width:370px ;
+  height: 290px;
   margin-bottom: 20px;
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
 }
 #c{
-  margin: 24px 0px;
-}#ja{
+  margin: 10px 0px;
+  border: 2px solid red;
+  font-weight: 700;
+}
+#C{
+  width: 285px;
+}
+#ja{
   border-radius: 16px;
+  width:370px ;
+  height: 290px;
   background: rgba(255, 223, 0, 0.05);
   padding: 30px;
   margin-bottom: 20px;
 }
 #j{
   margin: 24px 0px;
+  font-weight: 700;
+}
+#J{
+  width: 285px;
 }
 /* card section style end here */
